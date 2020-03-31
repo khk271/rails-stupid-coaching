@@ -1,0 +1,77 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+  font-family: "Roboto", "sans-serif";
+  color: rgb(50, 50, 50);
+  margin-left: 24px;
+}
+
+h1 {
+  font-weight: normal;
+  margin-bottom: 0;
+}
+
+p {
+  font-weight: 300;
+}
+
+.question {
+  font-size: 14px;
+}
+
+.blue-btn {
+  background-color: rgb(51, 122, 184);
+  color: white;
+  padding: 8px 16px;
+  border-radius: 0 4px 4px 0;
+  border: none;
+  margin-left: 0;
+}
+
+.form-box {
+  margin-right: 0;
+  width: 300px;
+  border-radius: 4px 0 0 4px;
+  border: solid;
+  border-width: 1px;
+  border-color: rgb(200, 200, 200);
+  border-right: none;
+}
+
+.question-form {
+  display: flex;
+  padding: 0;
+}
+
+.display-input {
+  width: 400px;
+  padding: 2px 2px 2px 24px;
+  border-left: solid;
+  border-left-width: 4px;
+  border-left-color: rgb(180, 180, 180);
+  margin-bottom: 16px;
+  margin-top: 24px;
+}
+
+.display-output {
+  background-color: rgb(255, 255, 225);
+  width: 400px;
+  padding: 2px 2px 2px 24px;
+  border-left: solid;
+  border-left-width: 4px;
+  border-left-color: rgb(180, 180, 180);
+  margin-bottom: 16px;
+  margin-top: 24px;
+  .answer {
+    font-weight: 500;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: rgb(51, 122, 184);
+  font-size: 14px;
+}
